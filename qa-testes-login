@@ -1,0 +1,8 @@
+# Casos de Teste - Login
+
+| ID   | Cenário                | Passos | Resultado Esperado |
+|------|----------------------|--------|--------------------|
+| CT01 | Login válido         | Inserir usuário e senha válidos | Acesso permitido |
+| CT02 | Senha inválida       | Inserir senha incorreta | Mensagem de erro |
+| CT03 | Campos vazios        | Clicar em login sem preencher | Validação obrigatória |
+| CT04 | Usuário inexistente  | Inserir usuário inválido | Mensagem de erro |
